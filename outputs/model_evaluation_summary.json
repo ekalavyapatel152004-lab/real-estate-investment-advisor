@@ -1,0 +1,20 @@
+{
+  "classification": {
+    "accuracy": 0.71486,
+    "f1": 0.7162277820903247,
+    "roc_auc": 0.7869218449316746
+  },
+  "regression_current_price": {
+    "mae_lakhs": 122.39336976899565,
+    "rmse_lakhs": 141.30118385200336,
+    "r2": -0.0015308877017536915,
+    "baseline_mae_lakhs": 122.31536100000001,
+    "baseline_rmse_lakhs": 141.19429871664082,
+    "baseline_r2": -1.6275100808149645e-05
+  },
+  "notes": {
+    "classification_target": "Price per sq ft at or below city median; relative screening only.",
+    "regression_target": "Current listing price in lakhs.",
+    "five_year_value": "Not learned from historical outcomes. If shown in the app, it is a scenario based on an assumed annual appreciation rate."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "valid_rows_used": 250000,
+  "rows_removed_or_excluded": 0,
+  "good_investment_rule": "1 when Price_per_SqFt is at or below the median Price_per_SqFt for that City; otherwise 0.",
+  "class_counts": {
+    "0": 124987,
+    "1": 125013
+  },
+  "price_per_sqft_unit": "INR per square foot",
+  "warning": "This is a relative price screening label, not observed profitability."
+}
